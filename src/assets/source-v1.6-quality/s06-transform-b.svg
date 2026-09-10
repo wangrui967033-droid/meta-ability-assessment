@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img">
+<rect width="720" height="360" rx="18" fill="#f7f9fc"/>
+<style>.s{stroke:#10213f;stroke-width:7;fill:none;stroke-linecap:round;stroke-linejoin:round}.t{font:700 24px system-ui,sans-serif;fill:#10213f}.m{font:600 18px system-ui,sans-serif;fill:#61708a}.o{fill:#fff;stroke:#10213f;stroke-width:5}.f{fill:#10213f}</style>
+    <text x="32" y="34" class="m">把左图沿虚线翻到另一侧</text>
+    <g transform="translate(28 58)"><line x1="190" y1="0" x2="190" y2="185" stroke="#9aa6b8" stroke-width="4" stroke-dasharray="10 10"/><path d="M20 145H130V55" class="s"/><path d="M115 72L130 54L145 72" class="s"/><circle cx="20" cy="145" r="12" fill="#f3b84b" stroke="#10213f" stroke-width="5"/></g>
+    <g transform="translate(300 48)">
+      <text x="70" y="18" text-anchor="middle" class="t">A</text><g transform="translate(0 26)"><path d="M120 86H35V18" class="s"/><path d="M20 35L35 17L50 35" class="s"/><circle cx="120" cy="86" r="10" fill="#f3b84b" stroke="#10213f" stroke-width="5"/></g>
+      <text x="245" y="18" text-anchor="middle" class="t">B</text><g transform="translate(175 26)"><path d="M120 18H35V86" class="s"/><path d="M20 69L35 87L50 69" class="s"/><circle cx="120" cy="18" r="10" fill="#f3b84b" stroke="#10213f" stroke-width="5"/></g>
+      <text x="70" y="142" text-anchor="middle" class="t">C</text><g transform="translate(0 150)"><path d="M18 86H103V18" class="s"/><path d="M88 35L103 17L118 35" class="s"/><circle cx="18" cy="86" r="10" fill="#f3b84b" stroke="#10213f" stroke-width="5"/></g>
+      <text x="245" y="142" text-anchor="middle" class="t">D</text><g transform="translate(175 150)"><path d="M120 86H35V18" class="s"/><path d="M20 35L35 17L50 35" class="s"/><circle cx="35" cy="18" r="10" fill="#f3b84b" stroke="#10213f" stroke-width="5"/></g>
+    </g>
+  </svg>

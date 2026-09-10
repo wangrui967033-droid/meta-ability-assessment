@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <rect width="748" height="748" fill="#fff"/><g transform="translate(0 250)" fill="none" stroke="#0d1b3d" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M28 204H98V120H190M225 85V45H302V22" stroke-width="6"/><path d="M260 120H322V182H350M225 155V212H292V234" stroke-width="4"/>
+  <rect x="190" y="85" width="70" height="70" stroke="#8e9aae" stroke-width="3" stroke-dasharray="7 6"/><circle cx="28" cy="204" r="9" fill="#0d1b3d"/><path d="M302 7l11 18h-22z" fill="#d79a2b" stroke="none"/>
+  <g stroke-width="4"><g transform="translate(374 85)"><rect width="70" height="70" rx="6" stroke="#b9c2d0" stroke-width="2"/><path d="M0 35H70M35 0V70"/><circle cx="35" cy="35" r="7" fill="#0d1b3d"/></g>
+  <g transform="translate(466 85)"><rect width="70" height="70" rx="6" stroke="#b9c2d0" stroke-width="2"/><path d="M0 35H22Q35 35 35 22V0M70 35H48Q35 35 35 48V70"/></g>
+  <g transform="translate(558 85)"><rect width="70" height="70" rx="6" stroke="#b9c2d0" stroke-width="2"/><path d="M0 35H22Q35 35 35 22V0M70 35H48Q35 35 35 48V70"/><path d="M28 35q7-12 14 0" stroke="#fff" stroke-width="8"/><path d="M28 35q7-12 14 0"/></g>
+  <g transform="translate(650 85)"><rect width="70" height="70" rx="6" stroke="#b9c2d0" stroke-width="2"/><path d="M0 35H20Q35 35 35 50V70M35 0V20Q35 35 50 35H70"/></g></g></g>
+  <g transform="translate(0 250)" fill="#0d1b3d" font-family="Arial" font-size="20" font-weight="700" text-anchor="middle"><text x="409" y="191">A</text><text x="501" y="191">B</text><text x="593" y="191">C</text><text x="685" y="191">D</text></g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <defs>
+    <g id="one" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-34 18L-26 -21L-2 -36L22 -18L34 11L13 34L-15 28Z"/><path d="M-2 -36L-15 -49M13 34L29 44"/>
+      <circle cx="-34" cy="18" r="6" fill="#0d1b3d"/><circle cx="22" cy="-18" r="6" fill="#fff"/>
+    </g>
+    <g id="oneSwap" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-34 18L-26 -21L-2 -36L22 -18L34 11L13 34L-15 28Z"/><path d="M-2 -36L-15 -49M13 34L29 44"/>
+      <circle cx="-34" cy="18" r="6" fill="#fff"/><circle cx="22" cy="-18" r="6" fill="#0d1b3d"/>
+    </g>
+    <g id="two" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-32 23L-37 -8L-19 -34L10 -40L32 -19L37 12L16 35L-12 31Z"/><path d="M-19 -34L-32 -47M16 35L33 46"/>
+      <circle cx="-32" cy="23" r="6" fill="#0d1b3d"/><circle cx="10" cy="-40" r="6" fill="#fff"/>
+    </g>
+    <g id="twoSwap" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-32 23L-37 -8L-19 -34L10 -40L32 -19L37 12L16 35L-12 31Z"/><path d="M-19 -34L-32 -47M16 35L33 46"/>
+      <circle cx="-32" cy="23" r="6" fill="#fff"/><circle cx="10" cy="-40" r="6" fill="#0d1b3d"/>
+    </g>
+  </defs>
+  <rect width="748" height="748" fill="#fff"/>
+  <g transform="translate(0 258)">
+    <use href="#one" transform="translate(68 112)"/>
+    <path d="M116 112H143M133 103L143 112L133 121" fill="none" stroke="#b7791f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#oneSwap" transform="translate(191 112) scale(-1 1)"/>
+    <use href="#two" transform="translate(308 112)"/>
+    <use href="#twoSwap" transform="translate(421 112) rotate(35)"/>
+    <use href="#twoSwap" transform="translate(515 112) scale(-1 1)"/>
+    <use href="#two" transform="translate(609 112) scale(-1 1)"/>
+    <use href="#twoSwap" transform="translate(702 112)"/>
+  </g>
+  <g transform="translate(0 258)" fill="#0d1b3d" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">
+    <text x="68" y="28">A</text><text x="191" y="28">B</text><text x="308" y="28">C</text>
+    <text x="421" y="207">A</text><text x="515" y="207">B</text><text x="609" y="207">C</text><text x="702" y="207">D</text>
+  </g>
+</svg>

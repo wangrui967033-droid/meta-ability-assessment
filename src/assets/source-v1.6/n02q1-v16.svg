@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <rect width="748" height="748" fill="#fff"/>
+  <g transform="translate(0 258)" font-family="Arial, sans-serif" fill="#0d1b3d" stroke="#0d1b3d">
+    <path d="M55 125H695M680 111L695 125L680 139" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M55 106V144M405 108V142M435 108V142M460 108V142M495 108V142M695 106V144" fill="none" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="none" font-size="21" font-weight="700" text-anchor="middle">
+      <text x="405" y="82">A</text><text x="435" y="82">B</text><text x="460" y="82">C</text><text x="495" y="82">D</text>
+      <text x="55" y="180">−0.4</text><text x="695" y="180">1.1</text>
+    </g>
+  </g>
+</svg>

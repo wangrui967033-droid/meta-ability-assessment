@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748"><rect width="748" height="748" fill="#fff"/>
+<g transform="translate(54 245)" stroke="#0d1b3d" stroke-width="4" fill="none"><path d="M0 0H250M0 50H250M0 100H250M0 150H250M0 200H250M0 250H250M0 0V250M50 0V250M100 0V250M150 0V250M200 0V250M250 0V250"/></g>
+<g transform="translate(54 245)" font-family="Arial" font-size="19" font-weight="700" fill="#0d1b3d" text-anchor="middle"><text x="25" y="32">A</text><text x="225" y="232">B</text><text x="125" y="82">C</text><text x="225" y="82">D</text></g>
+<circle cx="129" cy="470" r="13" fill="#f4bd55" stroke="#0d1b3d" stroke-width="4"/>
+<g transform="translate(365 286)" fill="none" stroke="#0d1b3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M0 160H110m0 0-18-14m18 14-18 14"/><path d="M110 160V10m0 0-14 18m14-18 14 18"/><path d="M110 10H55m0 0 18-14M55 10l18 14"/></g>
+<g fill="#0d1b3d" font-family="Arial" font-size="20" font-weight="700"><text x="352" y="518">先右2格</text><text x="490" y="350">再上3格</text><text x="422" y="262">最后左1格</text></g></svg>

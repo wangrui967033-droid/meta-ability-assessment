@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img">
+<rect width="720" height="300" rx="18" fill="#f7f9fc"/>
+<style>.s{stroke:#10213f;stroke-width:7;fill:none;stroke-linecap:round;stroke-linejoin:round}.t{font:700 24px system-ui,sans-serif;fill:#10213f}.m{font:600 18px system-ui,sans-serif;fill:#61708a}.o{fill:#fff;stroke:#10213f;stroke-width:5}.f{fill:#10213f}</style>
+    <line x1="75" y1="170" x2="645" y2="170" class="s"/>
+    <path d="M630 154 L648 170 L630 186" class="s"/>
+    <line x1="75" y1="156" x2="75" y2="184" class="s"/><text x="75" y="220" text-anchor="middle" class="m">20</text><line x1="645" y1="156" x2="645" y2="184" class="s"/><text x="645" y="220" text-anchor="middle" class="m">100</text>
+    <line x1="253.125" y1="130" x2="253.125" y2="170" class="s"/><text x="253.125" y="112" text-anchor="middle" class="t">A</text><line x1="324.375" y1="130" x2="324.375" y2="170" class="s"/><text x="324.375" y="112" text-anchor="middle" class="t">B</text><line x1="374.25" y1="130" x2="374.25" y2="170" class="s"/><text x="374.25" y="112" text-anchor="middle" class="t">C</text><line x1="431.25" y1="130" x2="431.25" y2="170" class="s"/><text x="431.25" y="112" text-anchor="middle" class="t">D</text>
+    <text x="360" y="55" text-anchor="middle" class="t">目标数：57</text>
+  </svg>

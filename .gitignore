@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.DS_Store
+
+# Local configuration and deployment secrets — never commit real values.
+.env
+.env.*
+!.env.example
+
+# Generated simulation/review outputs; regenerate with the scripts when needed.
+design/300-500分模拟验收/
+design/300-500分模拟复测/

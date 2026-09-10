@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <defs>
+    <g id="base" fill="none" stroke="#0d1b3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-52 -26L-17 -43L7 -17L42 -32L53 6L24 29L-8 17L-37 45L-50 13"/>
+      <path d="M7 -17L12 8M24 29L43 44"/>
+      <circle cx="-52" cy="-26" r="7" fill="#0d1b3d"/>
+      <circle cx="-37" cy="45" r="7" fill="#fff"/>
+    </g>
+    <g id="swap" fill="none" stroke="#0d1b3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-52 -26L-17 -43L7 -17L42 -32L53 6L24 29L-8 17L-37 45L-50 13"/>
+      <path d="M7 -17L12 8M24 29L43 44"/>
+      <circle cx="-52" cy="-26" r="7" fill="#fff"/>
+      <circle cx="-37" cy="45" r="7" fill="#0d1b3d"/>
+    </g>
+    <g id="tick" fill="none" stroke="#0d1b3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-52 -26L-17 -43L7 -17L42 -32L53 6L24 29L-8 17L-37 45L-50 13"/>
+      <path d="M7 -17L-7 2M24 29L43 44"/>
+      <circle cx="-52" cy="-26" r="7" fill="#0d1b3d"/>
+      <circle cx="-37" cy="45" r="7" fill="#fff"/>
+    </g>
+  </defs>
+  <rect width="748" height="748" fill="#fff"/>
+  <g transform="translate(0 258)">
+    <use href="#base" transform="translate(82 119)"/>
+    <use href="#swap" transform="translate(238 119) rotate(65)"/>
+    <use href="#tick" transform="translate(382 119) rotate(138)"/>
+    <use href="#base" transform="translate(526 119) rotate(242) scale(-1 1)"/>
+    <use href="#base" transform="translate(670 119) rotate(304)"/>
+  </g>
+  <g transform="translate(0 258)" fill="#0d1b3d" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+    <text x="82" y="34">目标</text><text x="238" y="211">A</text><text x="382" y="211">B</text><text x="526" y="211">C</text><text x="670" y="211">D</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <defs>
+    <g id="one" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-28 20L-32 -15L-6 -32L25 -18L31 17L7 31Z"/><path d="M-6 -32L-1 -48"/>
+      <circle cx="-28" cy="20" r="6" fill="#0d1b3d"/><circle cx="25" cy="-18" r="6" fill="#fff"/>
+    </g>
+    <g id="oneSwap" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-28 20L-32 -15L-6 -32L25 -18L31 17L7 31Z"/><path d="M-6 -32L-1 -48"/>
+      <circle cx="-28" cy="20" r="6" fill="#fff"/><circle cx="25" cy="-18" r="6" fill="#0d1b3d"/>
+    </g>
+    <g id="two" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-30 25L-34 -10L-13 -35L16 -29L34 -3L24 28L-5 35Z"/><path d="M16 -29L29 -43"/>
+      <circle cx="-30" cy="25" r="6" fill="#0d1b3d"/><circle cx="16" cy="-29" r="6" fill="#fff"/>
+    </g>
+    <g id="twoSwap" fill="none" stroke="#0d1b3d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-30 25L-34 -10L-13 -35L16 -29L34 -3L24 28L-5 35Z"/><path d="M16 -29L29 -43"/>
+      <circle cx="-30" cy="25" r="6" fill="#fff"/><circle cx="16" cy="-29" r="6" fill="#0d1b3d"/>
+    </g>
+  </defs>
+  <rect width="748" height="748" fill="#fff"/>
+  <g transform="translate(0 258)">
+    <use href="#one" transform="translate(68 112)"/>
+    <path d="M116 112H143M133 103L143 112L133 121" fill="none" stroke="#b7791f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <use href="#oneSwap" transform="translate(191 112) rotate(90)"/>
+    <use href="#two" transform="translate(308 112)"/>
+    <use href="#two" transform="translate(421 112) rotate(90)"/>
+    <use href="#twoSwap" transform="translate(515 112) rotate(90) scale(-1 1)"/>
+    <use href="#twoSwap" transform="translate(609 112) rotate(90)"/>
+    <use href="#twoSwap" transform="translate(702 112) rotate(180)"/>
+  </g>
+  <g transform="translate(0 258)" fill="#0d1b3d" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">
+    <text x="68" y="28">A</text><text x="191" y="28">B</text><text x="308" y="28">C</text>
+    <text x="421" y="207">A</text><text x="515" y="207">B</text><text x="609" y="207">C</text><text x="702" y="207">D</text>
+  </g>
+</svg>

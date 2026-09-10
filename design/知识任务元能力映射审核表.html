@@ -1,0 +1,3820 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>知识任务元能力映射审核表</title>
+  <style>
+    :root{--paper:#f6f7f9;--ink:#10284d;--text:#50617a;--gold:#b77a17;--line:#d7dee8;--soft:#eaf0f7;--white:#fff;--warn:#fff5df;--ok:#e9f5ee}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif}.page{width:min(1680px,calc(100% - 48px));margin:28px auto 72px}.eyebrow{margin:0 0 12px;color:var(--gold);font-size:14px;letter-spacing:.08em}.hero{padding:34px 38px;background:var(--white);border-top:4px solid var(--gold);box-shadow:0 8px 30px rgba(16,40,77,.06)}h1{margin:0;font-family:"Songti SC",SimSun,serif;font-size:38px;letter-spacing:.02em}.lead{max-width:1050px;margin:18px 0 0;color:var(--text);font-size:16px;line-height:1.8}.metrics{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.metrics span{padding:9px 14px;border:1px solid var(--line);border-radius:999px;color:var(--text);background:#fbfcfd}.metrics b{color:var(--ink)}.notice{margin:22px 0 0;padding:16px 18px;border-left:4px solid var(--gold);background:var(--soft);color:var(--text);line-height:1.75}.toolbar{position:sticky;top:0;z-index:3;display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px;padding:12px 0;background:rgba(246,247,249,.96);backdrop-filter:blur(8px)}button{appearance:none;padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:var(--white);color:var(--ink);font:inherit;cursor:pointer}button.active{border-color:var(--gold);background:#fff9ee;color:#8a5b0d}.table-wrap{overflow:auto;border:1px solid var(--line);background:var(--white)}table{width:100%;min-width:1500px;border-collapse:collapse;font-size:13px;line-height:1.55}thead{position:sticky;top:59px;z-index:2;background:var(--ink);color:#fff}th{padding:13px 12px;text-align:left;white-space:nowrap}td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--text)}tr:hover td{background:#fbfcff}td.index{color:#98a3b3;text-align:right}td b,td.ability{color:var(--ink)}td.primary{font-weight:700}td small{display:block;margin-top:5px;color:var(--gold)}.status{display:inline-block;padding:4px 8px;border-radius:4px;white-space:nowrap}.status.reviewed{background:var(--ok);color:#28714b}.status.pending{background:var(--warn);color:#8a5b0d}.source{max-width:210px;overflow-wrap:anywhere;color:#97a1b0!important}.empty{padding:36px;text-align:center;color:var(--text)}
+    @media print{body{background:#fff}.page{width:100%;margin:0}.hero{box-shadow:none}.toolbar{display:none}.table-wrap{overflow:visible;border:0}table{min-width:0;font-size:9px}thead{position:static}th,td{padding:7px 5px}.source{display:none}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">元能力 × 知识图谱｜教研复核材料</p>
+      <h1>知识任务元能力映射审核表</h1>
+      <p class="lead">本表按固定链路呈现：二级知识内容 → 典型任务动作 → 具体元能力要求 → 主元能力 → 辅助元能力。映射不读取学生结果；同一任务面对不同学生时，主辅元能力保持不变。</p>
+      <div class="metrics"><span>任务总数 <b>315</b></span><span>图谱已标注 <b>3</b></span><span>待教研复核 <b>312</b></span></div>
+      <p class="notice"><b>审核边界：</b>“待教研复核”是用于逐项确认的 V1 候选标注，不代表已经通过学科教研。教师确认后，应把主、辅助元能力及标注依据写回知识图谱，再进入正式报告。分值只按“约 X 分／高频／中频／低频”展示，不参与元能力匹配。</p>
+    </section>
+    <nav class="toolbar" aria-label="审核表筛选">
+      <button class="active" data-filter="all">全部</button>
+      <button data-filter="subject:语文">语文</button><button data-filter="subject:数学">数学</button><button data-filter="subject:英语">英语</button><button data-filter="subject:日语">日语</button><button data-filter="subject:物理">物理</button><button data-filter="subject:化学">化学</button><button data-filter="subject:生物">生物</button><button data-filter="subject:历史">历史</button><button data-filter="subject:政治">政治</button><button data-filter="subject:地理">地理</button><button data-filter="subject:技术">技术</button>
+      <button data-filter="status:待教研复核">只看待复核</button>
+      <button type="button" data-print>打印 / 导出 PDF</button>
+    </nav>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>学科</th><th>一级模块</th><th>二级知识任务</th><th>典型任务动作</th><th>具体元能力要求</th><th>主元能力</th><th>辅助元能力</th><th>标注依据</th><th>审核状态</th></tr></thead>
+        <tbody>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">1</td>
+      <td><b>语文</b></td>
+      <td>现代文阅读</td>
+      <td><b>小说（文学类文本小说散文2选1）+戏剧</b><small>约16分</small></td>
+      <td>理解文本、整理线索并形成有依据的判断</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>阅读首先要求理解和组织文本，再调用推演与记忆。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-reading</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">2</td>
+      <td><b>语文</b></td>
+      <td>现代文阅读</td>
+      <td><b>散文（文学类文本小说散文2选1）</b><small>约16分</small></td>
+      <td>理解文本、整理线索并形成有依据的判断</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>阅读首先要求理解和组织文本，再调用推演与记忆。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-reading</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">3</td>
+      <td><b>语文</b></td>
+      <td>现代文阅读</td>
+      <td><b>信息文</b><small>约19分</small></td>
+      <td>读懂信息、组织材料并根据证据判断</td>
+      <td>理解意思｜组织信息｜发现关系｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>信息文先要求理解和组织文本，推演用于连接证据与结论。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-information-text</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">4</td>
+      <td><b>语文</b></td>
+      <td>古诗文阅读</td>
+      <td><b>文言文</b><small>约20分</small></td>
+      <td>理解文本、整理线索并形成有依据的判断</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>阅读首先要求理解和组织文本，再调用推演与记忆。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-reading</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">5</td>
+      <td><b>语文</b></td>
+      <td>古诗文阅读</td>
+      <td><b>诗歌</b><small>约9分</small></td>
+      <td>理解文本、整理线索并形成有依据的判断</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>阅读首先要求理解和组织文本，再调用推演与记忆。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-reading</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">6</td>
+      <td><b>语文</b></td>
+      <td>古诗文阅读</td>
+      <td><b>名篇名句默写</b><small>约6分</small></td>
+      <td>根据提示准确提取已学内容</td>
+      <td>保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>核心动作是保持并提取已学材料。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-recall</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">7</td>
+      <td><b>语文</b></td>
+      <td>语言文字运用</td>
+      <td><b>语言文字运用</b><small>约18分</small></td>
+      <td>结合语境辨析、修改并准确表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接考查语境理解与语言组织，规则判断和记忆提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-language-use</small></td>
+    </tr>
+    <tr data-subject="语文" data-status="待教研复核">
+      <td class="index">8</td>
+      <td><b>语文</b></td>
+      <td>作文</td>
+      <td><b>作文</b><small>约60分</small></td>
+      <td>形成观点、组织材料并完成表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>成文的直接要求是组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:chinese-writing</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">9</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>常见结论</b><small>约5分</small></td>
+      <td>建立关系并完成推演</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:数学</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">10</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>指对运算</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">11</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>一次函数的图像和性质</b><small>约3分</small></td>
+      <td>把变量关系在式与图之间转换</td>
+      <td>理解变化｜处理符号｜识别结构</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">空间｜推演</td>
+      <td>函数关系以数量变化为主，图像结构可作为固定辅助入口。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-function-visual</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">12</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>二次函数的性质与图象</b><small>约2分</small></td>
+      <td>把变量关系在式与图之间转换</td>
+      <td>理解变化｜处理符号｜识别结构</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">空间｜推演</td>
+      <td>函数关系以数量变化为主，图像结构可作为固定辅助入口。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-function-visual</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">13</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>不等式性质</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">14</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>一元二次不等式</b></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">15</td>
+      <td><b>数学</b></td>
+      <td>初高衔接</td>
+      <td><b>其他不等式</b></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">16</td>
+      <td><b>数学</b></td>
+      <td>集合与常用逻辑用语</td>
+      <td><b>集合</b><small>约3分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">17</td>
+      <td><b>数学</b></td>
+      <td>集合与常用逻辑用语</td>
+      <td><b>常用逻辑用语</b><small>约2分</small></td>
+      <td>根据条件建立关系并逐步推出结论</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理</td>
+      <td>核心动作是建立条件链并推演，符号处理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-reasoning</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">18</td>
+      <td><b>数学</b></td>
+      <td>基本不等式</td>
+      <td><b>基本不等式</b></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">19</td>
+      <td><b>数学</b></td>
+      <td>平面向量</td>
+      <td><b>向量的概念与线性运算</b><small>约2分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">20</td>
+      <td><b>数学</b></td>
+      <td>平面向量</td>
+      <td><b>向量的坐标表示法和运算</b><small>约3分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">21</td>
+      <td><b>数学</b></td>
+      <td>复数</td>
+      <td><b>复数</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">22</td>
+      <td><b>数学</b></td>
+      <td>三角函数与解三角形</td>
+      <td><b>三角函数基础</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">23</td>
+      <td><b>数学</b></td>
+      <td>三角函数与解三角形</td>
+      <td><b>三角函数图像与性质</b></td>
+      <td>把变量关系在式与图之间转换</td>
+      <td>理解变化｜处理符号｜识别结构</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">空间｜推演</td>
+      <td>函数关系以数量变化为主，图像结构可作为固定辅助入口。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-function-visual</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">24</td>
+      <td><b>数学</b></td>
+      <td>三角函数与解三角形</td>
+      <td><b>正余弦定理</b><small>约13分</small></td>
+      <td>建立关系并完成推演</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:数学</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">25</td>
+      <td><b>数学</b></td>
+      <td>数列</td>
+      <td><b>等差数列</b><small>约5分</small></td>
+      <td>从项的变化中归纳规律并进行符号推演</td>
+      <td>理解变化｜处理符号｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是从变化中归纳并推出结论，数理与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-sequence</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">26</td>
+      <td><b>数学</b></td>
+      <td>数列</td>
+      <td><b>等比数列</b><small>约5分</small></td>
+      <td>从项的变化中归纳规律并进行符号推演</td>
+      <td>理解变化｜处理符号｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是从变化中归纳并推出结论，数理与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-sequence</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">27</td>
+      <td><b>数学</b></td>
+      <td>数列</td>
+      <td><b>数列求通项</b><small>约7分</small></td>
+      <td>从项的变化中归纳规律并进行符号推演</td>
+      <td>理解变化｜处理符号｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是从变化中归纳并推出结论，数理与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-sequence</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">28</td>
+      <td><b>数学</b></td>
+      <td>数列</td>
+      <td><b>数列求和</b></td>
+      <td>从项的变化中归纳规律并进行符号推演</td>
+      <td>理解变化｜处理符号｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是从变化中归纳并推出结论，数理与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-sequence</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">29</td>
+      <td><b>数学</b></td>
+      <td>空间向量与立体几何空间几何体</td>
+      <td><b>空间几何体的结构及表面积与体积</b><small>约5分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">30</td>
+      <td><b>数学</b></td>
+      <td>空间向量与立体几何空间几何体</td>
+      <td><b>点、直线、平面之间的位置关系</b><small>约6分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">31</td>
+      <td><b>数学</b></td>
+      <td>空间向量与立体几何空间几何体</td>
+      <td><b>空间向量与立体几何</b><small>约9分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">32</td>
+      <td><b>数学</b></td>
+      <td>计数原理与概率统计</td>
+      <td><b>统计</b><small>约5分</small></td>
+      <td>整理数量信息、建立统计关系并解释结果</td>
+      <td>感知数量｜处理符号｜发现关系｜推出结论</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>核心对象是数据、数量和概率关系，推演用于解释和判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-statistics</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">33</td>
+      <td><b>数学</b></td>
+      <td>计数原理与概率统计</td>
+      <td><b>统计案例</b><small>约6分</small></td>
+      <td>整理数量信息、建立统计关系并解释结果</td>
+      <td>感知数量｜处理符号｜发现关系｜推出结论</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>核心对象是数据、数量和概率关系，推演用于解释和判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-statistics</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">34</td>
+      <td><b>数学</b></td>
+      <td>计数原理与概率统计</td>
+      <td><b>计数原理</b><small>约5分</small></td>
+      <td>整理数量信息、建立统计关系并解释结果</td>
+      <td>感知数量｜处理符号｜发现关系｜推出结论</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>核心对象是数据、数量和概率关系，推演用于解释和判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-statistics</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">35</td>
+      <td><b>数学</b></td>
+      <td>计数原理与概率统计</td>
+      <td><b>概率</b><small>约3分</small></td>
+      <td>整理数量信息、建立统计关系并解释结果</td>
+      <td>感知数量｜处理符号｜发现关系｜推出结论</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>核心对象是数据、数量和概率关系，推演用于解释和判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-statistics</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">36</td>
+      <td><b>数学</b></td>
+      <td>计数原理与概率统计</td>
+      <td><b>随机变量及其分布</b><small>约4分</small></td>
+      <td>整理数量信息、建立统计关系并解释结果</td>
+      <td>感知数量｜处理符号｜发现关系｜推出结论</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>核心对象是数据、数量和概率关系，推演用于解释和判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-statistics</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">37</td>
+      <td><b>数学</b></td>
+      <td>函数与导数</td>
+      <td><b>函数及其性质</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">38</td>
+      <td><b>数学</b></td>
+      <td>函数与导数</td>
+      <td><b>指对幂函数</b><small>约5分</small></td>
+      <td>处理符号、数量关系与变量变化</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理数量、符号和变化，推演与公式提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-quantitative</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">39</td>
+      <td><b>数学</b></td>
+      <td>函数与导数</td>
+      <td><b>函数的应用</b><small>约5分</small></td>
+      <td>根据条件建立关系并逐步推出结论</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理</td>
+      <td>核心动作是建立条件链并推演，符号处理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-reasoning</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">40</td>
+      <td><b>数学</b></td>
+      <td>函数与导数</td>
+      <td><b>导数及其应用</b><small>约10分</small></td>
+      <td>根据条件建立关系并逐步推出结论</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理</td>
+      <td>核心动作是建立条件链并推演，符号处理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-reasoning</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">41</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>直线与方程</b><small>约5分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">42</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>圆与方程</b><small>约5分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">43</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>椭圆</b><small>约4分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">44</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>双曲线</b></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">45</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>抛物线</b><small>约3分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="数学" data-status="待教研复核">
+      <td class="index">46</td>
+      <td><b>数学</b></td>
+      <td>平面解析几何</td>
+      <td><b>拓展：直线与圆锥曲线的位置关系</b><small>约6分</small></td>
+      <td>识别图形结构、位置关系并完成几何推演</td>
+      <td>识别结构｜空间想象｜空间转换｜推出结论</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接处理图形与位置，推演和数理支持证明与计算。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:math-space</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="图谱已标注">
+      <td class="index">47</td>
+      <td><b>英语</b></td>
+      <td>核心词汇</td>
+      <td><b>初阶词汇</b><small>高频</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status reviewed">图谱已标注</span><small class="source">catalog-reviewed:英语/核心词汇/初阶词汇</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="图谱已标注">
+      <td class="index">48</td>
+      <td><b>英语</b></td>
+      <td>核心词汇</td>
+      <td><b>中阶词汇</b><small>高频</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status reviewed">图谱已标注</span><small class="source">catalog-reviewed:英语/核心词汇/中阶词汇</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="图谱已标注">
+      <td class="index">49</td>
+      <td><b>英语</b></td>
+      <td>核心词汇</td>
+      <td><b>高阶词汇</b><small>高频</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status reviewed">图谱已标注</span><small class="source">catalog-reviewed:英语/核心词汇/高阶词汇</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">50</td>
+      <td><b>英语</b></td>
+      <td>基础语法</td>
+      <td><b>五大句子类型</b><small>约2分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">51</td>
+      <td><b>英语</b></td>
+      <td>基础语法</td>
+      <td><b>八大句子成分</b><small>约2分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">52</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>名词</b><small>约1分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">53</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>形容词&amp;副词</b><small>约2分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">54</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>动词</b><small>约4分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">55</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>介词</b><small>约1分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">56</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>代词&amp;冠词</b><small>约2分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">57</td>
+      <td><b>英语</b></td>
+      <td>语法填空</td>
+      <td><b>连词</b><small>约2分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">58</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>总论</b><small>约3分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">59</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>长难句</b><small>约3分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">60</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>细节理解</b><small>约11分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">61</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>推理判断</b><small>约7分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">62</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>词义猜测</b><small>约3分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">63</td>
+      <td><b>英语</b></td>
+      <td>阅读</td>
+      <td><b>主旨大意&amp;选标题</b><small>约3分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">64</td>
+      <td><b>英语</b></td>
+      <td>七选五</td>
+      <td><b>总论</b><small>约2分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">65</td>
+      <td><b>英语</b></td>
+      <td>七选五</td>
+      <td><b>匹配关系</b><small>约2分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">66</td>
+      <td><b>英语</b></td>
+      <td>七选五</td>
+      <td><b>匹配逻辑</b><small>约4分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">67</td>
+      <td><b>英语</b></td>
+      <td>七选五</td>
+      <td><b>匹配句式+功能</b><small>约2分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">68</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>对应原文</b><small>约3分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">69</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>感情色彩</b><small>约2分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">70</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>逻辑关系</b><small>约2分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">71</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>熟词僻义</b><small>约1分</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-vocabulary-recall</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">72</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>动词性质&amp;固定搭配</b><small>约2分</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-vocabulary-recall</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">73</td>
+      <td><b>英语</b></td>
+      <td>完形</td>
+      <td><b>动作衔接</b><small>约2分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">74</td>
+      <td><b>英语</b></td>
+      <td>应用文写作</td>
+      <td><b>应用文写作思路</b><small>约3分</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">75</td>
+      <td><b>英语</b></td>
+      <td>应用文写作</td>
+      <td><b>观点类应用文写作</b><small>约4分</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">76</td>
+      <td><b>英语</b></td>
+      <td>应用文写作</td>
+      <td><b>信息类应用文写作</b><small>约3分</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">77</td>
+      <td><b>英语</b></td>
+      <td>读后续写</td>
+      <td><b>读后续写情绪描写</b><small>约5分</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">78</td>
+      <td><b>英语</b></td>
+      <td>读后续写</td>
+      <td><b>读后续写动作描写</b><small>约5分</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">79</td>
+      <td><b>英语</b></td>
+      <td>读后续写</td>
+      <td><b>读后续写句式升级</b><small>约5分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:英语</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">80</td>
+      <td><b>英语</b></td>
+      <td>听力</td>
+      <td><b>听力基础元能力--语音现象</b><small>约5分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">81</td>
+      <td><b>英语</b></td>
+      <td>听力</td>
+      <td><b>听力-短对话</b><small>约5分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">82</td>
+      <td><b>英语</b></td>
+      <td>听力</td>
+      <td><b>听力-长对话&amp;独白</b><small>约10分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="英语" data-status="待教研复核">
+      <td class="index">83</td>
+      <td><b>英语</b></td>
+      <td>听力</td>
+      <td><b>听力真题答案定位填空特训</b><small>约7分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">84</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>日常生活</b><small>约3分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">85</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>时间、数量</b><small>约6分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">86</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>人物、状态描述</b><small>约4.5分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">87</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>校园、职场</b><small>约3分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">88</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>场所</b><small>约4.5分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">89</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>动作行为</b><small>约6分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">90</td>
+      <td><b>日语</b></td>
+      <td>听力模块</td>
+      <td><b>原因、理由</b><small>约3分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">91</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>判断句</b><small>约0分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">92</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>指示代词</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">93</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>动词基础</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">94</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>存在动词</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">95</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>基本助词1</b><small>约1.5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">96</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>基本助词2</b><small>约1.5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">97</td>
+      <td><b>日语</b></td>
+      <td>基础句型结构（语言知识运用1）</td>
+      <td><b>物品授受</b><small>低频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">98</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>数量词</b><small>约0分</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">99</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>一类形容词</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">100</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>二类形容词</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">101</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>形容词て形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">102</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>变化句</b><small>低频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">103</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>基本助词3</b><small>约1.5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">104</td>
+      <td><b>日语</b></td>
+      <td>形容词句法功能（语言知识运用2）</td>
+      <td><b>比较句型</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">105</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>动词原形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">106</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>动词ない形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">107</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>动词て形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">108</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>动词た形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">109</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>敬体与简体</b><small>中频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">110</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>简体形基本句型1</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">111</td>
+      <td><b>日语</b></td>
+      <td>动词活用与简体表达（语言知识运用3）</td>
+      <td><b>简体形基本句型2</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">112</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>假定语法1</b><small>约1.5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">113</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>假定语法2</b><small>约1.5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">114</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>动词命令形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">115</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>动词意志形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">116</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>样态语法1</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">117</td>
+      <td><b>日语</b></td>
+      <td>动词的扩展表达与运用（语言知识运用4）</td>
+      <td><b>样态语法2</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">118</td>
+      <td><b>日语</b></td>
+      <td>动词语态与功能转化（语言知识运用5）</td>
+      <td><b>动词可能形</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">119</td>
+      <td><b>日语</b></td>
+      <td>动词语态与功能转化（语言知识运用5）</td>
+      <td><b>补助动词1</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">120</td>
+      <td><b>日语</b></td>
+      <td>动词语态与功能转化（语言知识运用5）</td>
+      <td><b>补助动词2</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">121</td>
+      <td><b>日语</b></td>
+      <td>动词语态与功能转化（语言知识运用5）</td>
+      <td><b>被动句</b><small>中频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">122</td>
+      <td><b>日语</b></td>
+      <td>动词语态与功能转化（语言知识运用5）</td>
+      <td><b>使役句</b><small>中频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">123</td>
+      <td><b>日语</b></td>
+      <td>助词（语言知识运用6）</td>
+      <td><b>格助词</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">124</td>
+      <td><b>日语</b></td>
+      <td>助词（语言知识运用6）</td>
+      <td><b>接续助词</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">125</td>
+      <td><b>日语</b></td>
+      <td>助词（语言知识运用6）</td>
+      <td><b>副助词</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">126</td>
+      <td><b>日语</b></td>
+      <td>动词（语言知识运用7）</td>
+      <td><b>动词变形与自他动词</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">127</td>
+      <td><b>日语</b></td>
+      <td>动词（语言知识运用7）</td>
+      <td><b>补助动词总结</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">128</td>
+      <td><b>日语</b></td>
+      <td>动词（语言知识运用7）</td>
+      <td><b>复合词总结</b><small>中频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">129</td>
+      <td><b>日语</b></td>
+      <td>动词（语言知识运用7）</td>
+      <td><b>授受动词总结</b><small>低频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">130</td>
+      <td><b>日语</b></td>
+      <td>形容词（语言知识运用8）</td>
+      <td><b>形容词总结</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">131</td>
+      <td><b>日语</b></td>
+      <td>助动词（语言知识运用9）</td>
+      <td><b>愿望表达</b><small>低频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">132</td>
+      <td><b>日语</b></td>
+      <td>助动词（语言知识运用9）</td>
+      <td><b>样态语法</b><small>中频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">133</td>
+      <td><b>日语</b></td>
+      <td>助动词（语言知识运用9）</td>
+      <td><b>ないで・なくて</b><small>低频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">134</td>
+      <td><b>日语</b></td>
+      <td>助动词（语言知识运用9）</td>
+      <td><b>目的表达</b><small>中频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">135</td>
+      <td><b>日语</b></td>
+      <td>形式名词（语言知识运用10）</td>
+      <td><b>形式名词</b><small>低频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">136</td>
+      <td><b>日语</b></td>
+      <td>敬语（语言知识运用11）</td>
+      <td><b>敬语</b><small>低频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">137</td>
+      <td><b>日语</b></td>
+      <td>单词和句型（语言知识运用10）</td>
+      <td><b>句型</b><small>高频</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">138</td>
+      <td><b>日语</b></td>
+      <td>单词和句型（语言知识运用10）</td>
+      <td><b>单词</b><small>高频</small></td>
+      <td>识记、辨认并在语境中提取词义或搭配</td>
+      <td>快速记住｜保持信息｜准确提取</td>
+      <td class="ability primary">记忆</td>
+      <td class="ability">语言</td>
+      <td>词汇学习的核心是信息保持与提取，语境理解提供辅助。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-vocabulary-recall</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">139</td>
+      <td><b>日语</b></td>
+      <td>阅读模块</td>
+      <td><b>连词及内容填空</b><small>约5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">140</td>
+      <td><b>日语</b></td>
+      <td>阅读模块</td>
+      <td><b>指示代词</b><small>约5分</small></td>
+      <td>识别句法功能并在语境中选择正确形式</td>
+      <td>理解意思｜组织信息｜准确提取</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>语法的直接对象是语言结构，规则提取与关系判断提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-grammar</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">141</td>
+      <td><b>日语</b></td>
+      <td>阅读模块</td>
+      <td><b>原因、理由</b><small>约12.5分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">142</td>
+      <td><b>日语</b></td>
+      <td>阅读模块</td>
+      <td><b>信息理解</b><small>约17.5分</small></td>
+      <td>理解语篇、定位信息并整合前后关系</td>
+      <td>理解意思｜组织信息｜发现关系</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>语篇理解是主任务，推演与信息提取用于完成判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-reading</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">143</td>
+      <td><b>日语</b></td>
+      <td>阅读模块</td>
+      <td><b>主旨观点</b><small>约10分</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">144</td>
+      <td><b>日语</b></td>
+      <td>应用文主要格式</td>
+      <td><b>书信</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">145</td>
+      <td><b>日语</b></td>
+      <td>应用文主要格式</td>
+      <td><b>通知</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">146</td>
+      <td><b>日语</b></td>
+      <td>应用文主要格式</td>
+      <td><b>演讲稿</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">147</td>
+      <td><b>日语</b></td>
+      <td>应用文主要格式</td>
+      <td><b>邮件</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">148</td>
+      <td><b>日语</b></td>
+      <td>应用文主要格式</td>
+      <td><b>日记</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">149</td>
+      <td><b>日语</b></td>
+      <td>应用文拓展文体</td>
+      <td><b>书信拓展文体</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">150</td>
+      <td><b>日语</b></td>
+      <td>应用文拓展文体</td>
+      <td><b>通知拓展文体</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">151</td>
+      <td><b>日语</b></td>
+      <td>应用文拓展文体</td>
+      <td><b>演讲稿拓展文体</b><small>高频</small></td>
+      <td>根据交际目的组织信息并准确表达</td>
+      <td>组织信息｜准确表达｜推出结论</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>写作直接要求语言组织与表达，推演和材料提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-writing</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">152</td>
+      <td><b>日语</b></td>
+      <td>大作文模块</td>
+      <td><b>记叙议论文</b><small>高频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">153</td>
+      <td><b>日语</b></td>
+      <td>大作文模块</td>
+      <td><b>议论观点文</b><small>高频</small></td>
+      <td>连接上下文证据并推出隐含信息</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言</td>
+      <td>答案不能直接提取，需要在理解文本后完成推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:language-inference</small></td>
+    </tr>
+    <tr data-subject="日语" data-status="待教研复核">
+      <td class="index">154</td>
+      <td><b>日语</b></td>
+      <td>大作文模块</td>
+      <td><b>图表说明文</b><small>高频</small></td>
+      <td>理解语篇并完成表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:日语</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">155</td>
+      <td><b>物理</b></td>
+      <td>运动的描述与匀变速直线运动</td>
+      <td><b>运动学基本概念</b><small>约1.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">156</td>
+      <td><b>物理</b></td>
+      <td>运动的描述与匀变速直线运动</td>
+      <td><b>匀变速直线运动规律</b><small>约2分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">157</td>
+      <td><b>物理</b></td>
+      <td>相互作用与牛顿定律应用</td>
+      <td><b>力与受力分析</b><small>约1分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">158</td>
+      <td><b>物理</b></td>
+      <td>相互作用与牛顿定律应用</td>
+      <td><b>共点力平衡</b><small>约1分</small></td>
+      <td>识别条件并沿物理关系推演</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:物理</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">159</td>
+      <td><b>物理</b></td>
+      <td>相互作用与牛顿定律应用</td>
+      <td><b>牛顿运动定律</b><small>约2.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">160</td>
+      <td><b>物理</b></td>
+      <td>曲线运动、万有引力与宇宙航行</td>
+      <td><b>抛体运动</b><small>约2分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">161</td>
+      <td><b>物理</b></td>
+      <td>曲线运动、万有引力与宇宙航行</td>
+      <td><b>圆周运动</b><small>约2分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">162</td>
+      <td><b>物理</b></td>
+      <td>曲线运动、万有引力与宇宙航行</td>
+      <td><b>万有引力与航天</b><small>约3分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">163</td>
+      <td><b>物理</b></td>
+      <td>能量与动量守恒</td>
+      <td><b>功和能</b><small>约6分</small></td>
+      <td>识别状态变化并选择守恒或功能关系推演</td>
+      <td>发现关系｜推出结论｜处理符号｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心是判断过程中的关系与守恒条件，数量和规律提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-energy</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">164</td>
+      <td><b>物理</b></td>
+      <td>能量与动量守恒</td>
+      <td><b>动量与碰撞</b><small>约4分</small></td>
+      <td>识别状态变化并选择守恒或功能关系推演</td>
+      <td>发现关系｜推出结论｜处理符号｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心是判断过程中的关系与守恒条件，数量和规律提取提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-energy</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">165</td>
+      <td><b>物理</b></td>
+      <td>机械振动与机械波</td>
+      <td><b>机械振动与机械波</b><small>约2.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">166</td>
+      <td><b>物理</b></td>
+      <td>静电场</td>
+      <td><b>电场力的性质与能的性质</b><small>约2.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">167</td>
+      <td><b>物理</b></td>
+      <td>静电场</td>
+      <td><b>电容器与带电粒子在电场中</b><small>约3.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">168</td>
+      <td><b>物理</b></td>
+      <td>恒定电流、交变电流与变压器</td>
+      <td><b>电路分析</b><small>约2分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">169</td>
+      <td><b>物理</b></td>
+      <td>恒定电流、交变电流与变压器</td>
+      <td><b>电学实验</b><small>约9分</small></td>
+      <td>控制条件、处理数据并依据证据得出结论</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>实验核心是条件控制和证据推理，不按学生优势临时添加入口。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-experiment</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">170</td>
+      <td><b>物理</b></td>
+      <td>恒定电流、交变电流与变压器</td>
+      <td><b>交变电流与变压器</b><small>约6分</small></td>
+      <td>识别适用条件并沿物理关系推出结果</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是条件判断和关系推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-reasoning</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">171</td>
+      <td><b>物理</b></td>
+      <td>磁场与电磁感应</td>
+      <td><b>磁场与安培力</b><small>约3.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">172</td>
+      <td><b>物理</b></td>
+      <td>磁场与电磁感应</td>
+      <td><b>带电粒子在磁场中的运动</b><small>约4.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">173</td>
+      <td><b>物理</b></td>
+      <td>磁场与电磁感应</td>
+      <td><b>电磁感应</b><small>约3分</small></td>
+      <td>识别适用条件并沿物理关系推出结果</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是条件判断和关系推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-reasoning</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">174</td>
+      <td><b>物理</b></td>
+      <td>磁场与电磁感应</td>
+      <td><b>电磁感应中的导轨模型</b><small>约8分</small></td>
+      <td>识别适用条件并沿物理关系推出结果</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>核心动作是条件判断和关系推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-reasoning</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">175</td>
+      <td><b>物理</b></td>
+      <td>热学与光学</td>
+      <td><b>分子动理论与气体</b><small>约9分</small></td>
+      <td>用概念、证据和数量关系解释微观现象</td>
+      <td>准确提取｜发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>主要依赖概念关系与推演，不把不可见的微观概念直接等同为空间元能力。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-modern-concepts</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">176</td>
+      <td><b>物理</b></td>
+      <td>热学与光学</td>
+      <td><b>光学</b><small>约5.5分</small></td>
+      <td>还原对象、方向或结构并建立物理关系</td>
+      <td>识别结构｜空间想象｜空间转换｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜数理</td>
+      <td>任务直接要求处理对象位置、方向或结构，推演和数理提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-space</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">177</td>
+      <td><b>物理</b></td>
+      <td>近代物理</td>
+      <td><b>波粒二象性与光电效应</b><small>约4分</small></td>
+      <td>用概念、证据和数量关系解释微观现象</td>
+      <td>准确提取｜发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>主要依赖概念关系与推演，不把不可见的微观概念直接等同为空间元能力。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-modern-concepts</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">178</td>
+      <td><b>物理</b></td>
+      <td>近代物理</td>
+      <td><b>原子与原子核</b><small>约6分</small></td>
+      <td>用概念、证据和数量关系解释微观现象</td>
+      <td>准确提取｜发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>主要依赖概念关系与推演，不把不可见的微观概念直接等同为空间元能力。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-modern-concepts</small></td>
+    </tr>
+    <tr data-subject="物理" data-status="待教研复核">
+      <td class="index">179</td>
+      <td><b>物理</b></td>
+      <td>运动与力学实验</td>
+      <td><b>力学实验</b><small>约6分</small></td>
+      <td>控制条件、处理数据并依据证据得出结论</td>
+      <td>发现关系｜推出结论｜处理符号</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜记忆</td>
+      <td>实验核心是条件控制和证据推理，不按学生优势临时添加入口。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:physics-experiment</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">180</td>
+      <td><b>化学</b></td>
+      <td>化学基本概念与化学实验基础知识</td>
+      <td><b>化学物质及其变化</b><small>约6分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">181</td>
+      <td><b>化学</b></td>
+      <td>化学基本概念与化学实验基础知识</td>
+      <td><b>化学计量与简单计算</b><small>约3分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">182</td>
+      <td><b>化学</b></td>
+      <td>化学基本概念与化学实验基础知识</td>
+      <td><b>化学实验基础知识</b><small>约3分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">183</td>
+      <td><b>化学</b></td>
+      <td>元素及其化合物</td>
+      <td><b>金属及其化合物</b><small>约12分</small></td>
+      <td>连接条件、反应与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:化学</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">184</td>
+      <td><b>化学</b></td>
+      <td>元素及其化合物</td>
+      <td><b>非金属及其化合物</b><small>约10分</small></td>
+      <td>连接条件、反应与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:化学</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">185</td>
+      <td><b>化学</b></td>
+      <td>物质的结构与性质</td>
+      <td><b>原子结构与性质</b><small>约5分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">186</td>
+      <td><b>化学</b></td>
+      <td>物质的结构与性质</td>
+      <td><b>分子结构与性质</b><small>约8分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">187</td>
+      <td><b>化学</b></td>
+      <td>物质的结构与性质</td>
+      <td><b>晶体结构与性质</b><small>约7分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">188</td>
+      <td><b>化学</b></td>
+      <td>化学反应原理</td>
+      <td><b>化学反应与能量转化</b><small>约3分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">189</td>
+      <td><b>化学</b></td>
+      <td>化学反应原理</td>
+      <td><b>化学反应速率与平衡</b><small>约16分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">190</td>
+      <td><b>化学</b></td>
+      <td>化学反应原理</td>
+      <td><b>水溶液中的离子反应与平衡</b><small>约3分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">191</td>
+      <td><b>化学</b></td>
+      <td>有机化学</td>
+      <td><b>有机化合物的结构</b><small>约3分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">192</td>
+      <td><b>化学</b></td>
+      <td>有机化学</td>
+      <td><b>烃的衍生物</b><small>约12分</small></td>
+      <td>连接条件、反应与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:化学</small></td>
+    </tr>
+    <tr data-subject="化学" data-status="待教研复核">
+      <td class="index">193</td>
+      <td><b>化学</b></td>
+      <td>有机化学</td>
+      <td><b>有机化合物综合应用</b><small>约8分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">194</td>
+      <td><b>生物</b></td>
+      <td>模块一 细胞基础内容</td>
+      <td><b>第一讲 细胞中的元素和化合物</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">195</td>
+      <td><b>生物</b></td>
+      <td>模块一 细胞基础内容</td>
+      <td><b>第二讲 细胞学基础</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">196</td>
+      <td><b>生物</b></td>
+      <td>模块一 细胞基础内容</td>
+      <td><b>第三讲 细胞的结构</b><small>约6分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">197</td>
+      <td><b>生物</b></td>
+      <td>模块一 细胞基础内容</td>
+      <td><b>第四讲 物质进出细胞的方式</b><small>约6分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">198</td>
+      <td><b>生物</b></td>
+      <td>模块二 细胞代谢</td>
+      <td><b>第五讲 ATP和酶</b><small>约4分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">199</td>
+      <td><b>生物</b></td>
+      <td>模块二 细胞代谢</td>
+      <td><b>第六讲 细胞呼吸</b><small>约4分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">200</td>
+      <td><b>生物</b></td>
+      <td>模块二 细胞代谢</td>
+      <td><b>第七讲 光合作用</b><small>约8分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">201</td>
+      <td><b>生物</b></td>
+      <td>模块二 细胞代谢</td>
+      <td><b>第八讲 代谢综合</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">202</td>
+      <td><b>生物</b></td>
+      <td>模块三 细胞的生命历程</td>
+      <td><b>第九讲 有丝分裂和减数分裂</b><small>约4分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">203</td>
+      <td><b>生物</b></td>
+      <td>模块三 细胞的生命历程</td>
+      <td><b>第十讲 细胞分化、衰老、凋亡和癌变</b><small>约4分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">204</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十一讲 分离定律</b><small>约4分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">205</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十二讲 自由组合定律</b><small>约4分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">206</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十三讲 伴性遗传</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">207</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十四讲 证明DNA是主要遗传物质</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">208</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十五讲 DNA的分子结构及复制</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">209</td>
+      <td><b>生物</b></td>
+      <td>模块四 遗传学</td>
+      <td><b>第十六讲 基因的表达</b><small>约2分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">210</td>
+      <td><b>生物</b></td>
+      <td>模块五 变异与育种</td>
+      <td><b>第十七讲 变异与育种</b><small>约2分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">211</td>
+      <td><b>生物</b></td>
+      <td>模块五 变异与育种</td>
+      <td><b>第十八讲 进化和基因频率的计算</b><small>约4分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">212</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第十九讲 内环境及其稳态</b><small>约1分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">213</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第二十讲 神经调节</b><small>约3分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">214</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第二十一讲 体液调节</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">215</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第二十二讲 神经调节和体液调节实例</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">216</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第二十三讲 免疫调节</b><small>约2分</small></td>
+      <td>连接条件、过程与结果并解释变化</td>
+      <td>发现关系｜归纳规律｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜数理</td>
+      <td>任务核心是过程关系和因果推演。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-process</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">217</td>
+      <td><b>生物</b></td>
+      <td>模块六 稳态与调节</td>
+      <td><b>第二十四讲 植物激素</b><small>约2分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">218</td>
+      <td><b>生物</b></td>
+      <td>模块七 生物与环境</td>
+      <td><b>第二十五讲 种群</b><small>约3分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">219</td>
+      <td><b>生物</b></td>
+      <td>模块七 生物与环境</td>
+      <td><b>第二十六讲 群落</b><small>约3分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">220</td>
+      <td><b>生物</b></td>
+      <td>模块七 生物与环境</td>
+      <td><b>第二十七讲 生态系统</b><small>约4分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">221</td>
+      <td><b>生物</b></td>
+      <td>模块七 生物与环境</td>
+      <td><b>第二十八讲 人类与环境</b><small>约2分</small></td>
+      <td>连接结构、过程与结果</td>
+      <td>发现关系｜推出结论｜准确提取</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">记忆｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:生物</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">222</td>
+      <td><b>生物</b></td>
+      <td>模块八 生物技术与工程</td>
+      <td><b>第二十九讲 发酵工程</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">223</td>
+      <td><b>生物</b></td>
+      <td>模块八 生物技术与工程</td>
+      <td><b>第三十讲 植物细胞工程</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">224</td>
+      <td><b>生物</b></td>
+      <td>模块八 生物技术与工程</td>
+      <td><b>第三十一讲 动物细胞工程</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="生物" data-status="待教研复核">
+      <td class="index">225</td>
+      <td><b>生物</b></td>
+      <td>模块八 生物技术与工程</td>
+      <td><b>第三十二讲 基因工程</b><small>约4分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">226</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>中华文明的起源与早期国家（远古—前771）</b><small>约3分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">227</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>诸侯纷争与变法运动（前770—前221）</b><small>约3分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">228</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>秦统一多民族封建国家的建立（前221—前207）</b><small>约2分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">229</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>两汉——统一多民族封建国家的巩固（前202—220）</b><small>约4分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">230</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>三国两晋南北朝——中华文明的曲折发展（220—589）</b><small>约3分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">231</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>隋唐时期——中华文明的繁荣（581—907）</b><small>约3分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">232</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>辽宋夏金元时期——中华文明的成熟与高度发展（916—1368）</b><small>约4分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">233</td>
+      <td><b>历史</b></td>
+      <td>中国古代史</td>
+      <td><b>明清（前期）时期——中华文明的鼎盛与危机（1368—1840）</b><small>约5分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">234</td>
+      <td><b>历史</b></td>
+      <td>中国近代史</td>
+      <td><b>旧民主主义革命时期（1840—1919）</b><small>约10分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">235</td>
+      <td><b>历史</b></td>
+      <td>中国近代史</td>
+      <td><b>新民主主义革命时期（1919—1949）</b><small>约10分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">236</td>
+      <td><b>历史</b></td>
+      <td>中国现代史</td>
+      <td><b>新中国的成立与社会主义建设时期（1949—1978）</b><small>约4分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">237</td>
+      <td><b>历史</b></td>
+      <td>中国现代史</td>
+      <td><b>社会主义建设新时期——改革开放（1978—）</b><small>约6分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">238</td>
+      <td><b>历史</b></td>
+      <td>世界古代史</td>
+      <td><b>上古时期（5世纪以前）——古代文明的产生与发展</b><small>约2分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">239</td>
+      <td><b>历史</b></td>
+      <td>世界古代史</td>
+      <td><b>中古时期（5—15世纪）——世界各区域多元文明的发展</b><small>约3分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">240</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>走向整体的世界</b><small>约6分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">241</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>欧洲思想解放运动及资本主义制度的确立</b><small>约5分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">242</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>工业革命与马克思主义的诞生</b><small>约4分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">243</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>近代世界的政治、经济和文化（15世纪—19世纪末20世纪初）</b><small>约6分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">244</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>两次世界大战、十月革命与国际秩序的演变</b><small>约5分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">245</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>20世纪下半叶世界的新变化（1945—）</b><small>约5分</small></td>
+      <td>理解史料并组织有证据的解释</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:历史</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">246</td>
+      <td><b>历史</b></td>
+      <td>世界近现代史</td>
+      <td><b>二战以来的经济与文化</b><small>约4分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="历史" data-status="待教研复核">
+      <td class="index">247</td>
+      <td><b>历史</b></td>
+      <td>史学素养</td>
+      <td><b>史学素养</b><small>约3分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">248</td>
+      <td><b>政治</b></td>
+      <td>中国特色社会主义</td>
+      <td><b>人类社会发展进程与趋势</b><small>约2分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">249</td>
+      <td><b>政治</b></td>
+      <td>中国特色社会主义</td>
+      <td><b>中国特色社会主义的开创和发展</b><small>约8分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">250</td>
+      <td><b>政治</b></td>
+      <td>经济与社会</td>
+      <td><b>生产资料所有制与经济体制</b><small>约5分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">251</td>
+      <td><b>政治</b></td>
+      <td>经济与社会</td>
+      <td><b>经济发展和社会进步</b><small>约5分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">252</td>
+      <td><b>政治</b></td>
+      <td>政治与法治</td>
+      <td><b>党的领导</b><small>约5分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">253</td>
+      <td><b>政治</b></td>
+      <td>政治与法治</td>
+      <td><b>人民当家作主</b><small>约6分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">254</td>
+      <td><b>政治</b></td>
+      <td>政治与法治</td>
+      <td><b>全面依法治国</b><small>约6分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">255</td>
+      <td><b>政治</b></td>
+      <td>哲学与文化</td>
+      <td><b>探索世界与把握规律</b><small>约7分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">256</td>
+      <td><b>政治</b></td>
+      <td>哲学与文化</td>
+      <td><b>认识世界与价值选择</b><small>约7分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">257</td>
+      <td><b>政治</b></td>
+      <td>哲学与文化</td>
+      <td><b>文化传承与文化创新</b><small>约4分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">258</td>
+      <td><b>政治</b></td>
+      <td>当代国际政治与经济</td>
+      <td><b>各具特色的国家</b><small>约3分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">259</td>
+      <td><b>政治</b></td>
+      <td>当代国际政治与经济</td>
+      <td><b>政治多极化</b><small>约6分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">260</td>
+      <td><b>政治</b></td>
+      <td>当代国际政治与经济</td>
+      <td><b>经济全球化</b><small>约4分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">261</td>
+      <td><b>政治</b></td>
+      <td>当代国际政治与经济</td>
+      <td><b>国际组织</b><small>约2分</small></td>
+      <td>理解概念和材料并组织有依据的表达</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">记忆｜推演</td>
+      <td>直接任务是理解与表达，记忆和推演提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-knowledge</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">262</td>
+      <td><b>政治</b></td>
+      <td>法律与生活</td>
+      <td><b>民事权利与民事义务</b><small>约7分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">263</td>
+      <td><b>政治</b></td>
+      <td>法律与生活</td>
+      <td><b>家庭与婚姻</b><small>约2分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">264</td>
+      <td><b>政治</b></td>
+      <td>法律与生活</td>
+      <td><b>就业与创业</b><small>约2分</small></td>
+      <td>理解情境并用概念组织答案</td>
+      <td>理解意思｜组织信息｜准确表达</td>
+      <td class="ability primary">语言</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:政治</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">265</td>
+      <td><b>政治</b></td>
+      <td>法律与生活</td>
+      <td><b>社会争议解决</b><small>约4分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">266</td>
+      <td><b>政治</b></td>
+      <td>逻辑与思维</td>
+      <td><b>树立科学思维观念</b><small>约3分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">267</td>
+      <td><b>政治</b></td>
+      <td>逻辑与思维</td>
+      <td><b>遵循逻辑思维规则</b><small>约4分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">268</td>
+      <td><b>政治</b></td>
+      <td>逻辑与思维</td>
+      <td><b>运用辩证思维方法</b><small>约4分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="政治" data-status="待教研复核">
+      <td class="index">269</td>
+      <td><b>政治</b></td>
+      <td>逻辑与思维</td>
+      <td><b>提高创新思维元能力</b><small>约4分</small></td>
+      <td>读懂材料、连接证据并形成判断</td>
+      <td>理解意思｜发现关系｜推出结论</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">语言｜记忆</td>
+      <td>材料任务需要以证据支持判断。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:humanities-source</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">270</td>
+      <td><b>地理</b></td>
+      <td>模块一 内外力作用与地貌</td>
+      <td><b>岩石圈物质循环</b><small>约2分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">271</td>
+      <td><b>地理</b></td>
+      <td>模块一 内外力作用与地貌</td>
+      <td><b>内力作用与地貌</b><small>约4分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">272</td>
+      <td><b>地理</b></td>
+      <td>模块一 内外力作用与地貌</td>
+      <td><b>外力作用与地貌</b><small>约4分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">273</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>大气</b><small>约3分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">274</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>热力环流</b><small>约2分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">275</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>气压带风带</b><small>约4分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">276</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>季风环流</b><small>约4分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">277</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>全球气候类型</b><small>约5分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">278</td>
+      <td><b>地理</b></td>
+      <td>模块二 大气与气候</td>
+      <td><b>天气系统</b><small>约4分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">279</td>
+      <td><b>地理</b></td>
+      <td>模块三 水循环</td>
+      <td><b>水循环</b><small>约1分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">280</td>
+      <td><b>地理</b></td>
+      <td>模块三 水循环</td>
+      <td><b>陆地水体</b><small>约2分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">281</td>
+      <td><b>地理</b></td>
+      <td>模块三 水循环</td>
+      <td><b>海洋水体</b><small>约3分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">282</td>
+      <td><b>地理</b></td>
+      <td>模块四 自然地理整体性与差异性</td>
+      <td><b>自然地理整体性</b><small>约13分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">283</td>
+      <td><b>地理</b></td>
+      <td>模块四 自然地理整体性与差异性</td>
+      <td><b>自然地理差异性</b><small>约3分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">284</td>
+      <td><b>地理</b></td>
+      <td>模块五 自然灾害与地理信息技术</td>
+      <td><b>自然灾害</b><small>约3分</small></td>
+      <td>定位空间并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:地理</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">285</td>
+      <td><b>地理</b></td>
+      <td>模块五 自然灾害与地理信息技术</td>
+      <td><b>地理信息技术</b><small>约3分</small></td>
+      <td>读取数据、比较变化并联系区域条件</td>
+      <td>感知数量｜理解变化｜发现关系</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜空间</td>
+      <td>数据变化是直接对象，推演与空间定位提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-data</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">286</td>
+      <td><b>地理</b></td>
+      <td>模块六 人口</td>
+      <td><b>人口</b><small>约4分</small></td>
+      <td>读取数据、比较变化并联系区域条件</td>
+      <td>感知数量｜理解变化｜发现关系</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜空间</td>
+      <td>数据变化是直接对象，推演与空间定位提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-data</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">287</td>
+      <td><b>地理</b></td>
+      <td>模块七 城镇化</td>
+      <td><b>城镇化</b><small>约8分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">288</td>
+      <td><b>地理</b></td>
+      <td>模块八 产业区位因素</td>
+      <td><b>产业区位因素</b><small>约10分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">289</td>
+      <td><b>地理</b></td>
+      <td>模块九 交通运输业</td>
+      <td><b>交通运输业</b><small>约4分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">290</td>
+      <td><b>地理</b></td>
+      <td>模块十 能源资源开发</td>
+      <td><b>能源产业</b><small>约3分</small></td>
+      <td>读取数据、比较变化并联系区域条件</td>
+      <td>感知数量｜理解变化｜发现关系</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜空间</td>
+      <td>数据变化是直接对象，推演与空间定位提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-data</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">291</td>
+      <td><b>地理</b></td>
+      <td>模块十 能源资源开发</td>
+      <td><b>资源产业</b><small>约3分</small></td>
+      <td>读取数据、比较变化并联系区域条件</td>
+      <td>感知数量｜理解变化｜发现关系</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演｜空间</td>
+      <td>数据变化是直接对象，推演与空间定位提供支持。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-data</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">292</td>
+      <td><b>地理</b></td>
+      <td>模块十一 区域发展</td>
+      <td><b>我国的区域协调发展战略</b><small>约4分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="地理" data-status="待教研复核">
+      <td class="index">293</td>
+      <td><b>地理</b></td>
+      <td>模块十二 地球运动</td>
+      <td><b>自转、公转、月相运动</b><small>约4分</small></td>
+      <td>定位空间分布并解释地理过程</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>地图、位置和区域联系是直接任务对象。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:geography-space</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">294</td>
+      <td><b>技术</b></td>
+      <td>数据与计算</td>
+      <td><b>进制转化及编码</b><small>约2分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">295</td>
+      <td><b>技术</b></td>
+      <td>数据与计算</td>
+      <td><b>多媒体容量计算</b><small>约3分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">296</td>
+      <td><b>技术</b></td>
+      <td>数据与计算</td>
+      <td><b>人工智能</b><small>约2分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">297</td>
+      <td><b>技术</b></td>
+      <td>数据与计算</td>
+      <td><b>Python语句的综合应用</b><small>约6分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">298</td>
+      <td><b>技术</b></td>
+      <td>数据与计算</td>
+      <td><b>pandas模块与数据处理</b><small>约2分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">299</td>
+      <td><b>技术</b></td>
+      <td>信息系统的搭建</td>
+      <td><b>信息系统综合应用</b><small>约16分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">300</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>常见字符串处理</b><small>约3分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">301</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>数组与链表的代码实现</b><small>约4分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">302</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>栈与队列的代码实现</b><small>约4分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">303</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>排序算法的代码实现</b><small>约3分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">304</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>二叉树与二分查找的代码实现</b><small>约3分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">305</td>
+      <td><b>技术</b></td>
+      <td>数据与数据结构</td>
+      <td><b>迭代算法与递归算法</b><small>约2分</small></td>
+      <td>处理数量、数据或符号并验证结果</td>
+      <td>感知数量｜理解变化｜处理符号</td>
+      <td class="ability primary">数理</td>
+      <td class="ability">推演</td>
+      <td>任务对象是数据与数量关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-calculation</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">306</td>
+      <td><b>技术</b></td>
+      <td>技术与设计1</td>
+      <td><b>技术与设计</b><small>约4分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">307</td>
+      <td><b>技术</b></td>
+      <td>技术与设计1</td>
+      <td><b>设计的一般过程</b><small>约10分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">308</td>
+      <td><b>技术</b></td>
+      <td>技术与设计1</td>
+      <td><b>人机关系</b><small>约4分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">309</td>
+      <td><b>技术</b></td>
+      <td>技术与设计1</td>
+      <td><b>图样绘制与模型制作</b><small>约8分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">310</td>
+      <td><b>技术</b></td>
+      <td>技术与设计2</td>
+      <td><b>结构及其设计</b><small>约4分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">311</td>
+      <td><b>技术</b></td>
+      <td>技术与设计2</td>
+      <td><b>系统与控制设计</b><small>约6分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">312</td>
+      <td><b>技术</b></td>
+      <td>电子控制技术</td>
+      <td><b>电子元器件</b><small>约4分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">313</td>
+      <td><b>技术</b></td>
+      <td>电子控制技术</td>
+      <td><b>门电路和触发器</b><small>约2分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">314</td>
+      <td><b>技术</b></td>
+      <td>电子控制技术</td>
+      <td><b>二极管和三极管</b><small>约2分</small></td>
+      <td>设计流程并检查系统结果</td>
+      <td>发现关系｜推出结论｜识别结构</td>
+      <td class="ability primary">推演</td>
+      <td class="ability">数理｜空间</td>
+      <td>学科通用任务框架；具体节点待教研复核。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">subject-framework:技术</small></td>
+    </tr>
+    <tr data-subject="技术" data-status="待教研复核">
+      <td class="index">315</td>
+      <td><b>技术</b></td>
+      <td>电子控制技术</td>
+      <td><b>综合电路</b><small>约6分</small></td>
+      <td>识别组成、位置与系统连接</td>
+      <td>识别结构｜空间想象｜发现关系</td>
+      <td class="ability primary">空间</td>
+      <td class="ability">推演｜记忆</td>
+      <td>任务直接处理组成结构与连接关系。</td>
+      <td><span class="status pending">待教研复核</span><small class="source">topic-rule:science-structure</small></td>
+    </tr></tbody>
+      </table>
+      <p class="empty" hidden>当前筛选下没有任务。</p>
+    </div>
+  </main>
+  <script>
+    const buttons=[...document.querySelectorAll('[data-filter]')];const rows=[...document.querySelectorAll('tbody tr')];const empty=document.querySelector('.empty');buttons.forEach(button=>button.addEventListener('click',()=>{buttons.forEach(item=>item.classList.remove('active'));button.classList.add('active');const filter=button.dataset.filter;let visible=0;rows.forEach(row=>{const show=filter==='all'||filter.startsWith('subject:')&&row.dataset.subject===filter.slice(8)||filter.startsWith('status:')&&row.dataset.status===filter.slice(7);row.hidden=!show;if(show)visible+=1});empty.hidden=visible!==0}));document.querySelector('[data-print]').addEventListener('click',()=>window.print());
+  </script>
+</body>
+</html>

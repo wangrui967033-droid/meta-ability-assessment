@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="748" viewBox="0 0 748 748">
+  <rect width="748" height="748" fill="#fff"/>
+  <g transform="translate(0 258)" fill="none" stroke="#0d1b3d" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="7">
+      <path d="M24 93L49 124L72 99L98 137L128 107"/>
+      <path d="M72 99L84 69M98 137L118 162"/>
+    </g>
+    <g stroke-width="4.5">
+      <path d="M184 93L209 124L232 99L258 137L288 107M232 99L244 69M258 137L278 162M209 124L188 148"/>
+      <path d="M324 93L349 124L372 99L398 137L428 107M372 99L360 69M398 137L418 162M349 124L330 148"/>
+      <path d="M464 98L489 124L512 99L538 137L568 107M512 99L524 69M538 137L558 154M489 124L468 148"/>
+      <path d="M604 107L634 137L660 99L683 124L708 93M660 99L648 69M634 137L614 162M683 124L704 148"/>
+    </g>
+  </g>
+  <g transform="translate(0 258)" fill="#0d1b3d" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">
+    <text x="78" y="42">目标</text><text x="236" y="207">A</text><text x="376" y="207">B</text><text x="516" y="207">C</text><text x="656" y="207">D</text>
+  </g>
+</svg>
