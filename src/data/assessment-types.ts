@@ -94,6 +94,7 @@ export interface DeckItem {
 
 export interface Intake {
   name: string
+  phone: string
   grade: string
   foreignLanguage: ForeignLanguage | ''
   selectedSubjects: SubjectName[]

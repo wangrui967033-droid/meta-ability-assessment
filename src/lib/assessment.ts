@@ -141,11 +141,13 @@ export const classifyKnowledgeTask = (
   return taskStrategyForStatus[requirementSupport(primaryRequired, entryRequired, observations).status]
 }
 
-export function validateIntake(input: Pick<Intake, 'name'> & Partial<Pick<Intake, 'grade' | 'foreignLanguage' | 'selectedSubjects'>>): Partial<Record<'name' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>> {
-  const errors: Partial<Record<'name' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>> = {}
+export function validateIntake(input: Pick<Intake, 'name'> & Partial<Pick<Intake, 'phone' | 'grade' | 'foreignLanguage' | 'selectedSubjects'>>): Partial<Record<'name' | 'phone' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>> {
+  const errors: Partial<Record<'name' | 'phone' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>> = {}
   const name = input.name.trim()
   if (!name) errors.name = '请填写姓名'
   else if (name.length > 20) errors.name = '姓名或报告显示名请控制在20个字以内'
+  // Legacy unit callers omit this newly introduced field; every real Intake has it.
+  if ('phone' in input && !/^1[3-9]\d{9}$/.test(input.phone?.replace(/\s/g, '') ?? '')) errors.phone = '请输入正确的手机号'
   if (!input.grade?.trim()) errors.grade = '请选择年级'
   if (!input.foreignLanguage?.trim()) errors.foreignLanguage = '请选择高考外语语种'
   return errors

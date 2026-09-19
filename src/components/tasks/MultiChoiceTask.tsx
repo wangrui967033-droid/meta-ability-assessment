@@ -36,7 +36,7 @@ export function MultiChoiceTask({ interaction, value, onChange, onVisualReady, p
               {item.targetVisualId && <div className="question-asset memory-target"><MemoryGlyph id={item.targetVisualId}/></div>}
               {itemAsset ? item.asset?.startsWith('n01-dot') ? <BriefArray src={itemAsset} item={index} storageKey={persistenceKey ? `${persistenceKey}:dots:${index}` : undefined} onReady={() => setLoaded(p => p[index] ? p : ({...p, [index]:true}))}/> : <div className="question-asset zoomable-diagram"><button type="button" className="diagram-open" disabled={!loaded[index]} aria-label={`放大第${index+1}题图形`} onClick={e=>{e.currentTarget.focus();setView({src:itemAsset,title:`第${index+1}题图形`,comparison:diagramComparison(itemAsset)})}}>放大 / 对照看</button><img src={itemAsset} onLoad={() => setLoaded(p => ({...p, [index]:true}))} onError={() => setLoaded(p => ({...p, [index]:false}))} alt={`第${index + 1}题图形材料`} draggable={false} /></div> : null}
               {item.asset && !item.asset.startsWith('n01-dot') && !loaded[index] && <p role="status">图片还没加载好，请稍等。如果一直看不到图，请检查网络后刷新。</p>}
-              <div className={item.targetVisualId ? "v15-options memory-location-options" : "v15-options"} role="radiogroup" aria-label={`第${index + 1}题选项`}>
+              <div className={item.targetVisualId ? "v15-options memory-location-options" : item.options.every(option => option.visualId) ? "v15-options memory-visual-options" : item.options.every(option => Array.from(option.label.replace(/\s/g, '')).length <= 6) ? "v15-options compact-options" : "v15-options"} role="radiogroup" aria-label={`第${index + 1}题选项`}>
                 {item.options.map((option) => (
                   <button
                     type="button"

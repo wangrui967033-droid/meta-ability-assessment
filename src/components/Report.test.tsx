@@ -103,6 +103,18 @@ describe('student report', () => {
     window.dispatchEvent(new Event('afterprint'))
     expect(lists.every(d=>!d.open)).toBe(true)
   })
+  it('adds optional report metadata in a print-only footer without changing the student report by default', () => {
+    const { container, rerender } = render(<Report name="打印" report={buildPrototypeReport(evidence, '英语')} />)
+    expect(container.querySelector('.print-meta')).toBeNull()
+
+    rerender(<Report name="打印" report={buildPrototypeReport(evidence, '英语')} printMeta={{
+      generatedAt: '2026-09-10T08:05:00.000Z',
+      revision: 2,
+    }} />)
+
+    expect(container.querySelector('.print-meta')).toHaveTextContent('报告版本：2')
+    expect(container.querySelector('.print-meta')).toHaveTextContent('生成时间：2026-09-10 16:05')
+  })
   it('puts the student first and explains mechanisms and learning methods beyond the question format', () => {
     const {container} = render(<Report name="林晓" report={buildPrototypeReport(evidence, '英语')} />)
     expect(container.querySelector('.report-hero')?.firstElementChild).toHaveTextContent('姓名：林晓')
@@ -142,7 +154,10 @@ describe('student report', () => {
     expect(screen.getByRole('heading',{level:1})).toHaveTextContent(/^语言$/)
     expect(screen.queryByText(/这次得分较高：语言 ×/)).not.toBeInTheDocument()
     expect(screen.getByText('03｜我的学科发挥方向')).toBeInTheDocument()
-    expect(screen.getByText(/先看每门课需要哪些元能力/)).toBeInTheDocument()
+    expect(screen.getByText('优势发挥区：')).toBeInTheDocument()
+    expect(screen.getByText('优势借力区：')).toBeInTheDocument()
+    expect(screen.getByText('待发展区：')).toBeInTheDocument()
+    expect(screen.getByText(/这不等于你已经被判定为不擅长这门学科/)).toBeInTheDocument()
     expect(screen.queryByText(/任务层分析放在04/)).not.toBeInTheDocument()
     expect(screen.getAllByText('优势可发挥任务').length).toBeGreaterThan(0)
     expect(screen.getByText('可借力任务：')).toBeInTheDocument()

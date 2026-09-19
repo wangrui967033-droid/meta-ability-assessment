@@ -4,7 +4,7 @@ import type { SubjectName } from '../data/subject-task-map'
 
 interface IntakeScreenProps {
   intake: Intake
-  errors: Partial<Record<'name' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>>
+  errors: Partial<Record<'name' | 'phone' | 'grade' | 'foreignLanguage' | 'selectedSubjects', string>>
   onChange: (next: Intake) => void
   onStart: () => void
 }
@@ -27,13 +27,13 @@ export function IntakeScreen({ intake, errors, onChange, onStart }: IntakeScreen
   }
   return (
     <main className="app-shell intro-shell" id="top">
-      <header className="simple-nav"><Brand /><span>预计15～18分钟</span></header>
+      <header className="simple-nav"><Brand /><span>25分钟左右</span></header>
       <section className="intro-copy">
         <h1 aria-label="元能力学习画像">元能力<br />学习画像</h1>
-        <p>除了看分数，也看看自己怎么学更顺手。用15～18分钟做一组小任务，了解自己哪些元能力比较突出、能用在哪些学科和题目上，以及还要用好哪些元能力。</p>
+        <p>完成30组小任务，了解自己的元能力表现，找到适合的学习方法。请预留25分钟左右，按自己的节奏完成。</p>
         <div className="intro-points">
           <span><BrainCircuit size={18} />五种元能力</span>
-          <span><Clock3 size={18} />预计15～18分钟</span>
+          <span><Clock3 size={18} />25分钟左右</span>
           <span><Sparkles size={18} />一份学习方法参考</span>
         </div>
       </section>
@@ -41,6 +41,9 @@ export function IntakeScreen({ intake, errors, onChange, onStart }: IntakeScreen
         <label htmlFor="name">姓名</label>
         <input id="name" aria-label="姓名" value={intake.name} onChange={(event) => update('name', event.target.value)} placeholder="请输入姓名" autoComplete="name" />
         {errors.name ? <p className="field-error">{errors.name}</p> : null}
+        <label htmlFor="phone">手机号</label>
+        <input id="phone" aria-label="手机号" inputMode="tel" value={intake.phone} onChange={(event) => update('phone', event.target.value)} placeholder="请输入11位手机号" autoComplete="tel" />
+        {errors.phone ? <p className="field-error">{errors.phone}</p> : null}
         <label htmlFor="grade">年级</label>
         <select id="grade" aria-label="年级" value={intake.grade} onChange={(event) => update('grade', event.target.value)}>
           <option value="">请选择</option><option value="高一">高一</option><option value="高二">高二</option><option value="高三">高三</option>
@@ -58,7 +61,7 @@ export function IntakeScreen({ intake, errors, onChange, onStart }: IntakeScreen
         </fieldset>
         {errors.selectedSubjects ? <p className="field-error">{errors.selectedSubjects}</p> : null}
         <button className="primary-button" type="button" onClick={onStart}>开始测评<ArrowRight size={19} /></button>
-        <p className="privacy-note"><ShieldCheck size={16} />姓名和作答保存在这台设备上，用来生成报告。这里填写的信息不计分。</p>
+        <p className="privacy-note"><ShieldCheck size={16} />手机号仅供机构查找报告，不影响评分，也不会保存在本机测评记录中。</p>
       </section>
     </main>
   )

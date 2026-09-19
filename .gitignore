@@ -1,9 +1,26 @@
 node_modules/
 dist/
+dist-server/
+.worktrees/
+supabase/.temp/
+oss-release/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
 .DS_Store
+
+# SQLite data and sensitive backups (including WAL/journal sidecars).
+data/
+backups/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
 
 # Local configuration and deployment secrets — never commit real values.
 .env
@@ -13,3 +30,11 @@ vite.config.d.ts
 # Generated simulation/review outputs; regenerate with the scripts when needed.
 design/300-500分模拟验收/
 design/300-500分模拟复测/
+
+# Generated cloud bundles and local release evidence.
+dist-edge/
+supabase/functions/assessment-api/
+release-*/
+内测样本-*/
+
+/node_modules

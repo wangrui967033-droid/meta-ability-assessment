@@ -1,0 +1,6 @@
+project_id = "meta-ability-assessment"
+
+# Public student submissions; handler separately verifies every administrator JWT and membership.
+[functions.assessment-api]
+verify_jwt = false
+entrypoint = "./functions/assessment-api/index.js"

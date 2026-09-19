@@ -1,0 +1,18 @@
+已上线：2026-09-15。OSS 前端已更新，Supabase assessment-api 为 v4。
+基线：线上 index-nJvylftz.js / index-Cyq6Poml.css；修改前备份可重建出相同资源名。
+新版：1.6-readable-20260915。评分及映射版本不变。
+序列：每个符号2.4秒，空白0.6秒；四五项共27秒、六项共18秒。图形位置与名字材料仍各24秒。
+首页：25分钟左右，这是预留时间提示，尚非新版真人用时统计。
+报告、答案、题序、维度计分及学科映射未改。
+发布顺序：兼容新旧版本的 assessment-api 后端已发布为 v4，前端包已上传。assessment-api-v3-回滚备份.js 仅用于后端回滚，不得上传 OSS。
+前端包中 projects/meta-ability-assessment/ 内的文件应覆盖到原站 index.html 所在目录；核对线上嵌套路径，避免再多套一层 projects。
+已找到的页面：https://sishu.ray.xshq0521.cn/projects/meta-ability-assessment/projects/meta-ability-assessment/index.html
+当前旧域名有TLS证书不匹配，发布时需确认正式访问地址。
+后端产物只部署到函数服务，不上传OSS。无需数据库迁移，不重算历史报告。
+手机适配：短选项两列、长句单列，减少留白；定时记忆材料适配窄屏、矮屏和横屏。已检查8种屏幕尺寸，40项相关测试通过，30组自动作答及本地报告生成通过，报告结果与调整前一致。
+
+学生入口：http://sishu.ray.xshq0521.cn/projects/meta-ability-assessment/projects/meta-ability-assessment/index.html
+管理入口：http://sishu.ray.xshq0521.cn/projects/meta-ability-assessment/projects/meta-ability-assessment/admin/index.html
+线上验证：3个前端文件均与本地发布包一致；390px手机首页与后台登录页无横向溢出、无页面脚本异常；报告内容与评分保持原版。后台登录后操作未使用管理员密码复验。
+
+2026-09-15 二次更新（已上线）：序列符号全部使用SVG，展示与序列选项使用相同图形，手机竖屏闪现图形约186–240px；报告03新增三类解释；全站标题正文统一系统无衬线字体，取消远程字体加载。报告文案和外观本次按用户要求更新，计分与学科映射不变。36项测试、8种屏幕布局、30组本地完整作答通过；线上文件逐一核对一致。

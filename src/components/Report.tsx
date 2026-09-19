@@ -4,7 +4,11 @@ import { studentTaskStep } from '../data/student-task-steps'
 import { dimensionDefinitions, dimensionLabels, type Dimension, type KnowledgeGraphTopicResult, type ReportModel, type SubjectTaskResult } from '../lib/assessment'
 import RadarChart from './RadarChart'
 
-interface ReportProps { name: string; report: ReportModel }
+interface ReportProps {
+  name: string
+  report: ReportModel
+  printMeta?: { generatedAt: string; revision: number }
+}
 const studyEntry: Record<Dimension, string> = { memory: '回想并记下重点', language: '用自己的话说清内容', quantitative: '比较数量和变化', space: '画图理清位置和关系', reasoning: '找出条件之间的关系，一步步往下推' }
 
 const icons: Record<Dimension, typeof Brain> = { memory: Brain, language: Quote, quantitative: ChartNoAxesColumnIncreasing, space: Shapes, reasoning: GitBranch }
@@ -18,7 +22,13 @@ const representativeTopics = (items: Array<{ task: SubjectTaskResult; topic: Kno
   const sorted = [...items].sort((left, right) => scoreValue(right.topic.score) - scoreValue(left.topic.score))
   return sorted
 }
-export default function Report({ name, report }: ReportProps) {
+function printDateTime(value: string): string {
+  const date = new Date(new Date(value).getTime() + 8 * 60 * 60 * 1_000)
+  const pad = (part: number) => String(part).padStart(2, '0')
+  return `${date.getUTCFullYear()}-${pad(date.getUTCMonth() + 1)}-${pad(date.getUTCDate())} ${pad(date.getUTCHours())}:${pad(date.getUTCMinutes())}`
+}
+
+export default function Report({ name, report, printMeta }: ReportProps) {
   useEffect(()=>{
     let closed:HTMLDetailsElement[]=[]
     const before=()=>{closed=[...document.querySelectorAll<HTMLDetailsElement>('details.task-list:not([open])')];closed.forEach(d=>d.open=true)}
@@ -67,7 +77,11 @@ export default function Report({ name, report }: ReportProps) {
 
         <section className="report-section opportunity-section">
           <div className="section-heading"><p>03｜我的学科发挥方向</p><h2>哪些学科更容易发挥，哪些还需要发展？</h2></div>
-          <p className="opportunity-note">先看每门课需要哪些元能力，再看你哪些方面能帮上忙、还要配合哪些元能力。</p>
+          <div className="task-priority-note opportunity-reading-note">
+            <p><b>优势发挥区：</b>这门学科主要需要的元能力，在本次测评中都表现较顺手，可以尝试把它们用在相关学习任务上。</p>
+            <p><b>优势借力区：</b>已有元能力可以帮助你入手，学科主要需要的其他元能力还要一起用好。</p>
+            <p><b>待发展区：</b>这门学科的主要要求尚未全部达到本次支持标准，且没有足够的借力入口，建议结合04中的具体做法加强练习。这不等于你已经被判定为不擅长这门学科。</p>
+          </div>
           <div className="opportunity-groups">{opportunityGroups.map(group => <article className={group.tier === '优势发挥区' ? 'opportunity-strong' : ''} key={group.tier}>
             <header><h3>{opportunityTierCopy[group.tier]}</h3><p>{opportunityTierNote[group.tier]}</p></header>
             <div>{group.subjects.length ? group.subjects.map(subject => <span key={subject.subject}>
@@ -90,6 +104,7 @@ export default function Report({ name, report }: ReportProps) {
         })}</div></details></article>)}</div> : <p className="empty-strategy">{taskEmptyCopy}</p>}</section>
 
 
+        {printMeta ? <footer className="print-meta">报告版本：{printMeta.revision}<span>生成时间：{printDateTime(printMeta.generatedAt)}</span></footer> : null}
       </div>
     </main>
   )
